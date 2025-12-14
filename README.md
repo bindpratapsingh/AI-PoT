@@ -58,11 +58,17 @@ In real distributed systems, this assumption breaks due to:
 
 ## Project Structure
 ├── scheduler.c # MPI-based scheduler (PoT + AI-PoT)
+
 ├── train_model.py # Tail-aware ML training and distillation
+
 ├── analyze_results.py # Latency percentile analysis
+
 ├── logs/ # Execution logs (CSV)
+
 ├── model/
+
 │ └── coeffs.txt # Trained model coefficients
+
 └── README.md
 
 
